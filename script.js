@@ -18,7 +18,7 @@ const getVowelCount = (sentence) => {
 // Version Améliorée
 
 const getVowelCount = (sentence) => {
-  const vowels = ["a", "e", "i", "o", "u"]; // pas de "y"
+  const vowels = ["a", "e", "i", "o", "u"];
   let count = 0;
 
   for (const char of sentence.toLowerCase()) {
