@@ -64,3 +64,11 @@ const getPunctuationCount = (sentence) => {
 // *********************** Quatrième partie, compter les mots dans une phrase ***********************
 // Version initiale
 
+const getWordCount = (sentence) => {
+  sentence = sentence.trim();
+  if (sentence === "") {
+    return 0;
+  }
+  const words = sentence.split(/\s+/);
+  return words.length;
+};
